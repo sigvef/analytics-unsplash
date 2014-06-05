@@ -1,7 +1,4 @@
 (function(){
-[].forEach.call(document.querySelectorAll('.ga-heros img'), function(img) {
-	img.style.opacity = 0;
-});
 var x = new XMLHttpRequest();
 x.onload = function(){
   var descriptions = x.responseXML.querySelectorAll('description');
