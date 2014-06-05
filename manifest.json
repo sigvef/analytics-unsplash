@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Analytics Unsplash",
+  "version": "1.0",
+  "description": "Puts images from unsplash.com on the front page of Google Analytics.", 
+  "author": "Sigve Sebastian Farstad",
+ "content_scripts": [
+    {
+      "matches": ["http://www.google.com/analytics/"],
+      "js": ["analytics-unsplash.js"]
+    }
+  ]
+}
