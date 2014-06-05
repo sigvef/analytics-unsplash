@@ -10,7 +10,8 @@
  "content_scripts": [
     {
       "matches": ["http://www.google.com/analytics/"],
-      "js": ["analytics-unsplash.js"]
+      "js": ["analytics-unsplash.js"],
+      "css": ["analytics-unsplash.css"]
     }
   ]
 }
