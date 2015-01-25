@@ -5,7 +5,7 @@
   "description": "Puts images from unsplash.com on the front page of Google Analytics.", 
   "author": "Sigve Sebastian Farstad",
   "permissions": [
-    "http://unsplash.com/rss"
+    "https://unsplash.com/rss"
   ],
  "content_scripts": [
     {
